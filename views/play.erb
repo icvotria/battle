@@ -1,4 +1,6 @@
 <h1><%= @player_1_name %> vs <%=@player_2_name %></h1>
 <img src="https://i.imgur.com/AXpEUDs.jpeg" width="200" height=auto /><img src="https://i.imgur.com/ha3Uo28.jpeg" width="200" height=auto/>
 <h2><%= @player_2_name %>: 100 HP </h2>
-<a href='/attack'>Attack!</a>
+<form action='/attack'>
+  <input type='submit' value='Attack!' />
+</form>
